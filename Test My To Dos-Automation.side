@@ -1,0 +1,149 @@
+{
+  "id": "56c703e3-923a-4b02-b528-eaa9a18fd0dd",
+  "version": "2.0",
+  "name": "Test My To Dos-Ronatiurrr",
+  "url": "https://my-vue-todos.netlify.app",
+  "tests": [{
+    "id": "ae272d96-da58-45ca-bb5f-05703852e829",
+    "name": "test script-ronatiur",
+    "commands": [{
+      "id": "1693c02f-5a81-46db-9c8b-450ec34d05d8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b4a339c-ffd4-4e8f-842e-47844d7a519a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x718",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d014b04-c787-427c-88be-bcd09a1625c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c1701a7-7b8f-4d7d-ac07-c84d1cb3bde6",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Aku adalah seorang mahasiswa teknologi informasi di salah satu perguruan Tinggi swasta. aku saat ini sedang mengerjakan tugas akhir saya yang mempunyai soalyang sangat susah dan juga penelitian yang harus membaca jurnal setiap malamnya. jadi untuk saat ini list yang harus saya lakukan adalah menyiapkan jurnal jurnal yang harus di pelajari"
+    }, {
+      "id": "69f18149-7108-4b09-9bf5-cf756c9fab8c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.form-control",
+      "targets": [
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "df338c48-462a-4ca2-b6f4-2cde5ee81def",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25983837-68a3-4af5-aebc-b051168df436",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex:nth-child(1) > .btn-outline-primary > .fa",
+      "targets": [
+        ["css=.d-flex:nth-child(1) > .btn-outline-primary > .fa", "css:finder"],
+        ["xpath=//button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "622cab54-e1c7-47c3-b428-0b3f5b3f7f6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex-grow-1 > .form-control",
+      "targets": [
+        ["css=.flex-grow-1 > .form-control", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//li/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b55e03dc-1d29-47ac-b377-ce913e84c913",
+      "comment": "",
+      "command": "type",
+      "target": "css=.flex-grow-1 > .form-control",
+      "targets": [
+        ["css=.flex-grow-1 > .form-control", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//li/form/input", "xpath:position"]
+      ],
+      "value": "Do the dishes sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss"
+    }, {
+      "id": "776cb4e1-c779-4b7c-86d3-45e786c212a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex:nth-child(2) > .flex-grow-1",
+      "targets": [
+        ["css=.d-flex:nth-child(2) > .flex-grow-1", "css:finder"],
+        ["xpath=//li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Take out the trash')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "617f1f38-2cc4-4fb7-88d6-332e776a08fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex:nth-child(3) > .flex-grow-1 > span",
+      "targets": [
+        ["css=.d-flex:nth-child(3) > .flex-grow-1 > span", "css:finder"],
+        ["xpath=//li[3]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Finish doing laundry')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4092130f-12ba-4089-b314-761f9491bb37",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex:nth-child(3) > .btn-outline-danger > .fa",
+      "targets": [
+        ["css=.d-flex:nth-child(3) > .btn-outline-danger > .fa", "css:finder"],
+        ["xpath=//li[3]/button[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "858cad25-c027-422d-bf02-a1930985e774",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-flex:nth-child(2) > .btn-outline-danger",
+      "targets": [
+        ["css=.d-flex:nth-child(2) > .btn-outline-danger", "css:finder"],
+        ["xpath=//li[2]/button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "68135e0f-50aa-4091-b195-637679b72f2b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ae272d96-da58-45ca-bb5f-05703852e829"]
+  }],
+  "urls": ["https://my-vue-todos.netlify.app/"],
+  "plugins": []
+}
